@@ -35,7 +35,6 @@ module demux1to2 (
     assign Y1 = S & D;
 endmodule
 
-```
 ## **Testbench Program
 
 // gedit tb4.v
@@ -175,6 +174,6 @@ The design was compiled and simulated using Synopsys VCS, and the functionality 
 ## Result
 
 Thus, the 2:1 Multiplexer and 1:2 Demultiplexer were designed, implemented using Verilog HDL, successfully simulated using Synopsys VCS, and verified using Synopsys DVE.
-
+```
 
 
